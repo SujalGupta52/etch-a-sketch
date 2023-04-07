@@ -14,9 +14,13 @@ body {
     font-size: 60px;
 }
 
+.mother-box {
+    height: 640px;
+    width: 640px;
+}
+
 .container {
-    height: 700px;
-    width: 700px;
+    flex: 1;
     background-color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
@@ -50,4 +54,8 @@ body {
         rgba(251, 7, 217, 1) 90%,
         rgba(255, 0, 0, 1) 100%
     );
+}
+
+.pixel {
+    outline: 1px solid rgb(191, 185, 185);
 }
