@@ -21,7 +21,7 @@ body {
 
 .container {
     flex: 1;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
 }
@@ -35,7 +35,7 @@ body {
     background-color: black;
 }
 
-.erase-button {
+.erase-button,.grid-size {
     background-color: white;
 }
 
